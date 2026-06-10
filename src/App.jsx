@@ -17,7 +17,7 @@ const students = [
     age: 22,
     course: "MERN Stack",
     city: "New York",
-    image: "/images/alex.jpg"
+    image: "./src/assets/dzine-test.jpeg"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const students = [
     age: 24,
     course: "Data Science",
     city: "San Francisco",
-    image: "/images/emily.jpg"
+    image: "./src/assets/student2-card.png"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const students = [
     age: 21,
     course: "Cybersecurity",
     city: "Chicago",
-    image: "/images/michael.jpg"
+    image: "./src/assets/dzine-test.jpeg"
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const students = [
     age: 23,
     course: "UI/UX Design",
     city: "Los Angeles",
-    image: "/images/sarah.jpg"
+    image: "./src/assets/student2-card.png"
   }
 ];
 
