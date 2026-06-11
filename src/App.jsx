@@ -8,6 +8,7 @@ import Banner from './components/Banner'
 import './App.css'
 import About from './components/About'
 import {useState} from 'react';
+import Subscription from './components/Subscription.jsx';
 
 
 const students = [
@@ -118,6 +119,9 @@ function App() {
 
           </div>
         </section>
+
+
+        <Subscription />
 
        
 

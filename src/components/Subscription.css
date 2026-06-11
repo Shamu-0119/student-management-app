@@ -1,0 +1,81 @@
+.sub-card {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    background: rgba(0, 217, 255, 0.1);
+    border: 1px solid rgba(0, 217, 255, 0.2);
+}
+.sub-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.sub-content h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.sub-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+    max-width: 500px;
+}
+
+.sub-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.sub-form form {
+    display: flex;
+    gap: 15px;
+}
+
+.sub-form input {
+    flex: 1;
+    padding: 16px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.sub-form button {
+    padding: 16px 28px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-form button:hover {
+    transform: translateY(-2px);
+    background: #1d4ed8;
+}
+
+@media (max-width: 768px) {
+    .sub-card {
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    .sub-form form {
+        flex-direction: column;
+    }
+
+    .sub-form button {
+        width: 100%;
+    }
+}
