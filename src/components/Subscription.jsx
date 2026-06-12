@@ -4,7 +4,7 @@ function Subscription(){
     return (
         <>
 
-       <div className="sub-card container">
+       <div className="sub-card container" id="contact">
             <div className="sub-content">
                 <h3>Stay Updated With Student Activities</h3>
                 <p> Get notifications about new courses, student updates, events, and academic announcements. </p>

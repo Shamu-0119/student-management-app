@@ -84,7 +84,7 @@ function App() {
        <About />
 
 
-       <section className="stats-section">
+       <section className="stats-section" id="achievements">
           <div className="container">
 
             <div className="section-heading">
@@ -107,7 +107,7 @@ function App() {
           </div>
         </section>
 
-       <section className="cards-section">
+       <section className="cards-section" id="students">
           <div className="container">
             <div className="section-header">
               <span className="section-subtitle">Student Directory</span>

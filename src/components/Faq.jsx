@@ -49,7 +49,7 @@ function Faq(){
 
     return (
         <>
-        <div className="container faq-section">
+        <div className="container faq-section" id="faq">
             <div className="faq-left">
                     <span className="faq-tag">FAQs</span>
 
