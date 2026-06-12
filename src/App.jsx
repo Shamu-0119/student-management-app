@@ -9,6 +9,7 @@ import './App.css'
 import About from './components/About'
 import {useState} from 'react';
 import Subscription from './components/Subscription.jsx';
+import Faq from './components/Faq.jsx';
 
 
 const students = [
@@ -46,6 +47,29 @@ const students = [
   }
 ];
 
+const stats = [
+{
+    id: 1,
+    number: "500+",
+    title: "Students"
+  },
+  {
+    id: 2,
+    number: "25",
+    title: "Courses"
+  },
+  {
+    id: 3,
+    number: "50",
+    title: "Faculty"
+  },
+  {
+    id: 4,
+    number: "95%",
+    title: "Placement Rate"
+  }
+];
+
 
 function App() {
   
@@ -58,6 +82,30 @@ function App() {
       <Banner />
 
        <About />
+
+
+       <section className="stats-section">
+          <div className="container">
+
+            <div className="section-heading">
+              <h2>Our Achievements</h2>
+              <p>
+                Delivering quality education and helping students
+                achieve their academic goals.
+              </p>
+            </div>
+
+            <div className="stats-grid">
+              {stats.map((stat) => (
+                <div className="stat-card" key={stat.id}>
+                  <h3>{stat.number}</h3>
+                  <p>{stat.title}</p>
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </section>
 
        <section className="cards-section">
           <div className="container">
@@ -123,6 +171,7 @@ function App() {
 
         <Subscription />
 
+          <Faq />
        
 
       <Footer />
