@@ -10,6 +10,7 @@ import About from './components/About'
 import {useState} from 'react';
 import Subscription from './components/Subscription.jsx';
 import Faq from './components/Faq.jsx';
+import Testimonials from './components/Testimonials.jsx';
 
 
 const students = [
@@ -172,9 +173,11 @@ function App() {
         <Subscription />
 
           <Faq />
+
+          <Testimonials />
        
 
-      <Footer />
+          <Footer />
     </>
   )
 }

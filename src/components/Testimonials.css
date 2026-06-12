@@ -1,0 +1,55 @@
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+.test-row{
+    display: flex;
+    gap:10px;
+    align-items: center; 
+}
+.test-row svg{
+    font-size: 25px;
+}
+.test-card .test-course{
+    color:#9ca3af;
+}
+.test-card .rating {
+    margin: 20px 0px;
+}
+.section-desc1 {
+    color: var(--text-secondary);
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.test-card{
+    border-radius: 10px;
+    padding:20px;
+    transition: all .3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .04);
+    background: rgba(0, 217, 255, 0.1);
+    border: 1px solid rgba(0, 217, 255, 0.2);
+    transition: all 0.3s ease;
+}
+.test-card .test-text{
+     color:#9ca3af;
+}
+.test-card:hover{
+        transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .08);
+}
+.testimonial-sec{
+    padding:0px 0px 80px 0px;
+}
+@media(max-width:992px){
+    .testimonial-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:768px){
+    .testimonial-grid{
+        grid-template-columns:1fr;
+    }
+}
