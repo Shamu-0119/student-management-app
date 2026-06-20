@@ -6,6 +6,7 @@ import About from './pages/About.jsx';
 import Faq from './pages/Faqs.jsx';
 import Testimonial from './pages/Testimonial.jsx';
 import Contact from './pages/Contact.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 function App(){
   return(
@@ -17,6 +18,7 @@ function App(){
         <Route path="/faq" element={<Faq />}></Route>
         <Route path="/testimonials" element={<Testimonial />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </BrowserRouter>
     </>
