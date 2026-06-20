@@ -18,11 +18,11 @@ function Footer(){
                     <div className="footer-col">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            {/* <li><a href="#">Home</a></li> */}
                             <li><a href="#about">About</a></li>
                             <li><a href="#services">Student Directory</a></li>
                             <li><a href="#achievements">Achievements</a></li>
-                             <li><a href="#faq">FAQs</a></li>
+                             {/* <li><a href="#faq">FAQs</a></li> */}
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>

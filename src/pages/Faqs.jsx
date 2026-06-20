@@ -51,7 +51,7 @@ function Faq(){
 
     return (
         <>
-  
+       <Header />
         <div className="container faq-section" id="faq">
             <div className="faq-left">
                     <span className="faq-tag">FAQs</span>
@@ -92,7 +92,7 @@ function Faq(){
             </div>
        </div>
 
- 
+    <Footer />
         </>
     )
 }

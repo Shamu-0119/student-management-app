@@ -1,4 +1,4 @@
-import './Banner.css'
+import '../styles/Banner.css'
 import heroImg from '../assets/hero.png'
 import StudentCard from './StudentCard'
 
