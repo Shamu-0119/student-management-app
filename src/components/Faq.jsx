@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import '../styles/Faq.css';
+import './Faq.css';
 import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 

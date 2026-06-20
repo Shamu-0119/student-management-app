@@ -8,6 +8,7 @@ import StudentCard from '../components/StudentCard';
 import {useState} from 'react';
 import Faq from '../components/Faq.jsx';
 import Testimonials from '../components/Testimonials.jsx';
+import Contact from '../components/Subscription.jsx';
 
 const students = [
   {
@@ -164,9 +165,12 @@ function Home(){
           </div>
         </section>
 
+        
         <Faq />
 
         <Testimonials />
+
+          <Contact />
 
 
         <Footer />
